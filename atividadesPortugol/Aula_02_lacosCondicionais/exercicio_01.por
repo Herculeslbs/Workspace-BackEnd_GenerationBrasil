@@ -1,8 +1,17 @@
 programa
 {
 	
-	funcao inicio(){
-	
+	funcao inicio()
+{
+	/*
+ 		 * 	João, homem de bem, comprou um microcomputador para controlar o rendimento diário
+			de seu trabalho. Toda vez que ele traz um peso de tomate maior que o estabelecido pelo
+			regulamento do estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo
+			excedente. João precisa que você faça um sistema que leia a variável P (peso de tomates) e
+			verifique se há excesso. Se houver, gravar na variável E (Excesso) e na variável M o valor
+			da multa que João deverá pagar. Caso contrário mostrar tais variáveis com o conteúdo zero 		 
+ 		 
+ 		 */
 		real pesoLimite, multaValor, P, E, M
 
 		escreva("Exercício 01\n")
@@ -21,39 +30,14 @@ programa
 	senao se (P <= 50.00){
 		escreva("Peso total: " + P + "KG, Peso excedido: 'Zero' Valor da multa: 'Zero'\n")
 	}
-
-	real C, N, Ex, pgtFixo, pgtExtra, Hx, resultado, H
-
-		escreva("\nExercício 02\n")
-
-		pgtFixo = 500.00
-		pgtExtra = 20.00
-		H = 50.00
-		
-		escreva("Digite o Código '0' - Horas Extras:")
-		leia(C)
-
-		escreva("Digite a quantidade de Horas trabalhadas:")
-		leia(N)
-
-		se (N > 50.00){
-		 	Ex = N - H
-		 	Hx = pgtExtra * Ex
-		 	resultado = pgtFixo + Hx
-		 	escreva("Salário total: R$" + resultado + " Horas Extras: R$" + Hx)
-		}
-		senao se (N <= 50.00){
-			escreva("Salário total: R$" + pgtFixo + " Horas Extras: R$ 'Zero'")
-		}
-		
-   }
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 962; 
+ * @POSICAO-CURSOR = 602; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
