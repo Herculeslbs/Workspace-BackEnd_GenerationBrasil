@@ -2,7 +2,7 @@ package br.com.generation.repeticao;
 
 import java.util.Scanner;
 
-public class Repeticao02 {
+public class Repeticao02For {
 	// 2- Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)
 public static void main(String[] args) {
 		

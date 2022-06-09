@@ -1,6 +1,6 @@
 package br.com.generation.repeticao;
 
-public class Repeticao01 {
+public class Repeticao01For {
 	//1- Informar todos os números de 1000 a 1999 que quando divididos por 11
 		//obtemos resto = 5. (FOR)
 	public static void main(String[] args) {
