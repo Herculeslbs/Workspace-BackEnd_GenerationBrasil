@@ -20,4 +20,3 @@ public class Cliente {
 		System.out.println("Parcela em quantas vezes?");
 	}
 }
-
