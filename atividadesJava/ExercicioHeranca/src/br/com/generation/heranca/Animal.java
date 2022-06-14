@@ -30,6 +30,9 @@ public String getNome() {
 void emitirSom() {
 	System.out.println("Emitindo som natural...");
 	}
+void correr() {
+	System.out.println("Enquanto corre...");
+	}
 }
 
 

@@ -1,5 +1,5 @@
 package br.com.generation.heranca;
 
-public class Cavalo extends Corredores{
+public class Cavalo extends Animal{
 
 }
