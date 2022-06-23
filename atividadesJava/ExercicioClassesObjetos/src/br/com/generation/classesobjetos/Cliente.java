@@ -1,15 +1,15 @@
 package br.com.generation.classesobjetos;
 
-/*1) Crie uma classe cliente e apresente os atributos e métodos referentes
+/*1) Crie uma classe cliente e apresente os atributos e mï¿½todos referentes
 esta classe, em seguida crie um objeto cliente, defina as instancias deste
-objeto e apresente as informações deste objeto no console.*/
+objeto e apresente as informaï¿½ï¿½es deste objeto no console.*/
 
 public class Cliente {
 	
 	String nome;
 	int idade;
 	String email;
-	String endereço;
+	String endereco;
 	
 	
 	void comprarAvista() {
