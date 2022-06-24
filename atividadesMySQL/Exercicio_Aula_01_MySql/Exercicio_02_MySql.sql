@@ -31,9 +31,10 @@ INSERT INTO tb_produtos(descrição, preço, quantidade, categoria)VALUE("Celula
 -- traz todos os dados da tabela de funcionarios
 SELECT * FROM tb_produtos;
 
-
+-- Faça um SELECT que retorne todes os produtos com o valor maior do que 500.
 SELECT * FROM tb_produtos WHERE preço > 500;
 
+-- Faça um SELECT que retorne todes os produtos com o valor menor do que 500.
 SELECT * FROM tb_produtos WHERE preço < 500;
 
 -- para fazer atualização 
