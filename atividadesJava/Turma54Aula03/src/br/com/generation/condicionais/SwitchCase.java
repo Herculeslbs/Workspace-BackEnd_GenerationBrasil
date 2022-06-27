@@ -20,7 +20,7 @@ public class SwitchCase {
 			System.out.println("Felipe");
 		break;
 		default:
-			System.out.println("Opção Inválida!");
+			System.out.println("OpÃ§Ã£o Invalida!");
 		break;	
 		}
 	}

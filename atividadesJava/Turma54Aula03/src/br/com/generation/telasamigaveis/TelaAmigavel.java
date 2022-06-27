@@ -8,13 +8,13 @@ public class TelaAmigavel {
 		
 		int numero;
 		
-		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
+		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um nï¿½mero inteiro: "));
 
 		if(numero % 4 == 0 && numero % 5 == 0) {
-			JOptionPane.showMessageDialog(null, "O número " + numero + " é divisivel por 4 e 5.");
+			JOptionPane.showMessageDialog(null, "O nï¿½mero " + numero + " ï¿½ divisivel por 4 e 5.");
 		}
 		else {
-			JOptionPane.showMessageDialog(null, "O número " + numero + " não divisivel por 4 e 5.");
+			JOptionPane.showMessageDialog(null, "O nï¿½mero " + numero + " nï¿½o divisivel por 4 e 5.");
 		}
 	}
 
